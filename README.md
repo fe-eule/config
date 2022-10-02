@@ -1,0 +1,2 @@
+# config
+eslint, prettier, editor
