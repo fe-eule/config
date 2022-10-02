@@ -1,0 +1,58 @@
+{
+  "name": "config",
+  "version": "0.1.0",
+  "description": "configurations",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "editorconfig"
+  ],
+  "homepage": "https://github.com/fe-eule/config#readme",
+  "bugs": {
+    "url": "https://github.com/fe-eule/config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-eule/config.git"
+  },
+  "license": "MIT",
+  "author": "doong-jo",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./setup-editorconfig.js"
+  },
+  "devDependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "@emotion/eslint-plugin": "^11.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
