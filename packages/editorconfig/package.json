@@ -16,7 +16,7 @@
     "directory": "packages/editorconfig"
   },
   "license": "MIT",
-  "author": "doong-jo",
+  "author": "@doong-jo",
   "scripts": {
     "postinstall": "node ./setup-editorconfig.js"
   },

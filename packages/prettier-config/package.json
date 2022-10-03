@@ -16,7 +16,7 @@
     "directory": "packages/prettier"
   },
   "license": "MIT",
-  "author": "doong-jo",
+  "author": "@doong-jo",
   "main": ".prettierrc.js",
   "devDependencies": {
     "prettier": "^2.7.1"

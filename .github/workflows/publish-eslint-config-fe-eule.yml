@@ -11,6 +11,9 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - uses: actions/checkout@v3
         with:
@@ -18,7 +21,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: ".nvmrc"
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: "./packages/eslint-config-fe-eule/package.json"
+          registry-url: https://npm.pkg.github.com/
+      - run: npm publish
+        working-directory: "packages/eslint-config-fe-eule"
+        env:
+          NODE_AUTH_TOKEN: "${{ secrets.NPM_TOKEN }}"

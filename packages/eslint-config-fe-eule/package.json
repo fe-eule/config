@@ -16,7 +16,7 @@
     "directory": "packages/eslint-config-fe-eule"
   },
   "license": "MIT",
-  "author": "doong-jo",
+  "author": "@doong-jo",
   "main": ".eslintrc.js",
   "devDependencies": {
     "@emotion/eslint-plugin": "^11.10.0",
