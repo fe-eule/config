@@ -1,7 +1,7 @@
 {
   "name": "@fe-eule/editorconfig",
   "version": "0.1.0",
-  "description": "Editorconfig configuration for fe-eule team",
+  "description": "Editorconfig configuration for fe-eule organization",
   "keywords": [
     "editorconfig",
     "fe-eule"

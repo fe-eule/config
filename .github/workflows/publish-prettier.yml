@@ -21,8 +21,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version-file: ".nvmrc"
-          registry-url: https://npm.pkg.github.com/
+          registry-url: https://registry.npmjs.org/
       - run: npm publish
-        working-directory: "packages/prettier"
+        working-directory: "packages/prettier-config"
         env:
           NODE_AUTH_TOKEN: "${{ secrets.NPM_TOKEN }}"

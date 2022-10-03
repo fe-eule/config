@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-fe-eule",
   "version": "0.1.0",
-  "description": "Eslint configuration for fe-eule team",
+  "description": "Eslint configuration for fe-eule organization",
   "keywords": [
     "eslint",
     "fe-eule"
