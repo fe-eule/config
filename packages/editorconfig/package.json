@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "Editorconfig configuration for fe-eule team",
   "keywords": [
-    "editorconfig"
+    "editorconfig",
+    "fe-eule"
   ],
   "homepage": "https://github.com/fe-eule/config#readme",
   "bugs": {
