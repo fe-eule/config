@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - "packages/editorconfig/.editorconfig"
-      - "packages/editorconfig/.package.json"
+      - "packages/editorconfig/package.json"
 
 jobs:
   publish:

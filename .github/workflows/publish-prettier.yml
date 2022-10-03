@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - "packages/prettier-config/.prettierrc.js"
-      - "packages/prettier-config/.package.json"
+      - "packages/prettier-config/package.json"
 
 jobs:
   publish:
