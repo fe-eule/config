@@ -1,0 +1,26 @@
+{
+  "name": "@fe-eule/prettier",
+  "version": "0.1.0",
+  "description": "Eslint config for fe-eule team",
+  "keywords": [
+    "prettier"
+  ],
+  "homepage": "https://github.com/fe-eule/config#readme",
+  "bugs": {
+    "url": "https://github.com/fe-eule/config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-eule/config.git",
+    "directory": "packages/prettier"
+  },
+  "license": "MIT",
+  "author": "doong-jo",
+  "main": ".prettierrc.js",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "peerDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
