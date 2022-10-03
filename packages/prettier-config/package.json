@@ -1,7 +1,7 @@
 {
   "name": "@fe-eule/prettier",
   "version": "0.1.0",
-  "description": "Eslint config for fe-eule team",
+  "description": "Prettier configuration for fe-eule team",
   "keywords": [
     "prettier"
   ],
