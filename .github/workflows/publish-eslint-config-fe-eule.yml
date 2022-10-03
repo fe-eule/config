@@ -1,9 +1,12 @@
-name: Publish
+name: Publish eslint-config-fe-eule
 
 on:
   push:
     branches:
       - main
+    paths:
+      - "packages/eslint-config-fe-eule/.eslintrc.js"
+      - "packages/eslint-config-fe-eule/.package.json"
 
 jobs:
   publish:
@@ -14,7 +17,8 @@ jobs:
           fetch-depth: 1
       - uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
+          package: "./packages/eslint-config-fe-eule"

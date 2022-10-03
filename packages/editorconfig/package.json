@@ -1,16 +1,9 @@
 {
-  "name": "@fe-eule/config",
+  "name": "@fe-eule/editorconfig",
   "version": "0.1.0",
-  "description": "configurations",
+  "description": "Editorconfig for fe-eule team",
   "keywords": [
-    "eslint",
-    "prettier",
     "editorconfig"
-  ],
-  "workspaces": [
-    "packages/editorconfig",
-    "packages/eslint-config-fe-eule",
-    "packages/prettier"
   ],
   "homepage": "https://github.com/fe-eule/config#readme",
   "bugs": {
@@ -18,12 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fe-eule/config.git"
+    "url": "git+https://github.com/fe-eule/config.git",
+    "directory": "packages/editorconfig"
   },
   "license": "MIT",
   "author": "doong-jo",
+  "scripts": {
+    "postinstall": "node ./setup-editorconfig.js"
+  },
   "engines": {
-    "node": "^16",
-    "npm": "^8"
+    "node": ">=14"
   }
 }
