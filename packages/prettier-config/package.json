@@ -4,7 +4,8 @@
   "description": "Prettier configuration for fe-eule organization",
   "keywords": [
     "prettier",
-    "fe-eule"
+    "fe-eule",
+    "frontend"
   ],
   "homepage": "https://github.com/fe-eule/config#readme",
   "bugs": {
