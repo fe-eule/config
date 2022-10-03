@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm i -D @fe-eule/editorconfig @fe-eule/prettier eslint-config-fe-eule
+npm i -D @fe-eule/editorconfig @fe-eule/prettier-config eslint-config-fe-eule
 ```
 
 ## Setup
